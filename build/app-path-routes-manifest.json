@@ -1,0 +1,9 @@
+{
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/NavBar/page": "/NavBar",
+  "/apod/page": "/apod",
+  "/epic/page": "/epic",
+  "/imageGalery/page": "/imageGalery",
+  "/marsImages/page": "/marsImages"
+}
