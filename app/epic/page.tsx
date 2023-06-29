@@ -5,7 +5,7 @@ const epicData = async () => {
 
 
   const res = await fetch(
-    `https://api.nasa.gov/EPIC/api/natural?api_key=${process.env.API_KEY}`
+    `https://api.nasa.gov/EPIC/api/natural?api_key=DEMO_KEY`
   );
   const data = await res.json();
 
