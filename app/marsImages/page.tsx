@@ -2,9 +2,9 @@
 
 import React, { useEffect, useState } from 'react';
 import { apiKey } from '@/service/apikey';
+import SpinnerLoading from '@/service/spinner';
 import ImageModal from './imageModal';
 import Image from 'next/image';
-import { error } from 'console';
 
 interface RoverPhoto {
   id: number;
@@ -28,10 +28,13 @@ interface RoverMaxSols {
 const MarsRoverPhotos = () => {
   const [roverPhotos, setRoverPhotos] = useState<RoverPhoto[]>([]);
   const [selectedPhoto, setSelectedPhoto] = useState<RoverPhoto | null>(null);
+  const [loading, setLoading] = useState(true);
+
+
   const roverMaxSols: RoverMaxSols = {
-    curiosity: 3866,
-    opportunity: 5111,
-    spirit: 2208,
+    curiosity: 2866,
+    opportunity: 4111,
+    spirit: 1208,
     perseverance: 832,
   };
 
@@ -51,7 +54,9 @@ const MarsRoverPhotos = () => {
       });
 
       const roverPhotos = await Promise.all(requests);
-      setRoverPhotos(roverPhotos);
+      const filteredRoverPhotos = roverPhotos.filter((photo) => photo !== undefined);
+      setRoverPhotos(filteredRoverPhotos);
+      setLoading(false)
     } catch (error) {
       console.error('Error fetching Mars rover photos:', error);
     }
@@ -62,6 +67,7 @@ const MarsRoverPhotos = () => {
   }, []);
 
   const handleLoadMore = () => {
+    setLoading(true);
     fetchRoverPhotos();
   };
 
@@ -73,13 +79,22 @@ const MarsRoverPhotos = () => {
     setSelectedPhoto(null);
   };
 
+
+  const returnSpinner = () => {
+    return (
+      <div className="flex w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4 mx-auto">
+        <SpinnerLoading />
+      </div>
+    )
+  }
+
   return (
-    <div className="max-w-auto mx-auto rounded-lg shadow-md p-10 mt-8">
+    <div className="max-w-auto mx-auto rounded-lg shadow-md p-10">
       <h2 className="text-5xl font-bold mb-4 text-center">Mars Rover Photos</h2>
       <p className="text-gray-400 m-4 text-center">Here you can see a photo from each rover randomly generated</p>
       <div className="flex flex-wrap">
-        {roverPhotos.map((roverPhoto) => (
-          <div key={roverPhoto.id} className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4">
+        {loading? returnSpinner() :  roverPhotos.map((roverPhoto) => (
+          <div key={roverPhoto.id} className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4 mx-auto">
             <h3 className="text-lg font-bold mb-2 text-center">{roverPhoto.rover.name}</h3>
             <p className="text-gray-400 m-2">{roverPhoto.camera.full_name}</p>
             <Image
@@ -93,7 +108,7 @@ const MarsRoverPhotos = () => {
           </div>
         ))}
       </div>
-      <div className="flex justify-center mt-4">
+      <div className="flex justify-center">
         <button
           className="bg-purple-700 hover:bg-purple-900 text-white font-bold mt-20 py-4 px-6 rounded"
           onClick={handleLoadMore}

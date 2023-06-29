@@ -36,7 +36,7 @@ const NasaImages: React.FC = () => {
 
   return (
     <div className="text-center">
-      <h1 className="text-5xl font-bold mb-10 mt-20 text-center">Nasa Image Gallery</h1>
+      <h1 className="text-5xl font-bold mb-10 mt-40 text-center">Nasa Image Gallery</h1>
       <p className="text-l mb-10">Try me?</p>
       <input
         type="text"

@@ -1,9 +1,7 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
-  "/NavBar/page": "app/NavBar/page.js",
-  "/apod/page": "app/apod/page.js",
+  "/marsImages/page": "app/marsImages/page.js",
   "/epic/page": "app/epic/page.js",
-  "/imageGalery/page": "app/imageGalery/page.js",
-  "/marsImages/page": "app/marsImages/page.js"
+  "/apod/page": "app/apod/page.js",
+  "/imageGalery/page": "app/imageGalery/page.js"
 }
