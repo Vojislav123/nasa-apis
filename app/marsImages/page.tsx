@@ -24,6 +24,7 @@ interface RoverMaxSols {
   [rover: string]: number;
 }
 
+
 const MarsRoverPhotos = () => {
   const [roverPhotos, setRoverPhotos] = useState<RoverPhoto[]>([]);
   const [selectedPhoto, setSelectedPhoto] = useState<RoverPhoto | null>(null);
@@ -38,15 +39,15 @@ const MarsRoverPhotos = () => {
   };
 
 
-
   const fetchRoverPhotos = async () => {
     const rovers = ['curiosity', 'opportunity', 'spirit', 'perseverance'];
 
     try {
       const requests = rovers.map(async (rover) => {
+        
         const maxSol = roverMaxSols[rover];
         const randomSol = Math.floor(Math.random() * maxSol) + 1;
-        const url = `https://api.nasa.gov/mars-photos/api/v1/rovers/${rover}/photos?sol=${randomSol}&api_key=${process.env.API_KEY}`;
+        const url = `https://api.nasa.gov/mars-photos/api/v1/rovers/${rover}/photos?sol=${randomSol}&api_key=DEMO_KEY`;
         const response = await fetch(url);
         const data = await response.json();
         return data.photos[0];
