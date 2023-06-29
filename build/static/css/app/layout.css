@@ -656,6 +656,9 @@ video {
 .w-full {
   width: 100%;
 }
+.w-auto {
+  width: auto;
+}
 .max-w-3xl {
   max-width: 48rem;
 }

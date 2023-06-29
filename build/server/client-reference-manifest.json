@@ -120,6 +120,14 @@
         "async": false
       }
     },
+    "(app-client)/./service/galaxy.png": {
+      "*": {
+        "id": "(sc_client)/./service/galaxy.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./app/imageGalery/page.tsx": {
       "*": {
         "id": "(sc_client)/./app/imageGalery/page.tsx",
@@ -427,6 +435,14 @@
       ],
       "async": false
     },
+    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\service\\galaxy.png": {
+      "id": "(app-client)/./service/galaxy.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\imageGalery\\page.tsx": {
       "id": "(app-client)/./app/imageGalery/page.tsx",
       "name": "*",
@@ -485,10 +501,6 @@
     }
   },
   "entryCSSFiles": {
-    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\imageGalery\\layout": {
-      "modules": [],
-      "files": []
-    },
     "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\layout": {
       "modules": [
         "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\globals.css",
@@ -499,6 +511,10 @@
       ]
     },
     "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\page": {
+      "modules": [],
+      "files": []
+    },
+    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\imageGalery\\layout": {
       "modules": [],
       "files": []
     },
@@ -514,6 +530,10 @@
       "modules": [],
       "files": []
     },
+    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\epic\\error": {
+      "modules": [],
+      "files": []
+    },
     "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\epic\\page": {
       "modules": [],
       "files": []
@@ -526,15 +546,7 @@
       "modules": [],
       "files": []
     },
-    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\epic\\error": {
-      "modules": [],
-      "files": []
-    },
     "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\marsImages\\page": {
-      "modules": [],
-      "files": []
-    },
-    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\marsImages\\layout": {
       "modules": [],
       "files": []
     },
@@ -542,15 +554,19 @@
       "modules": [],
       "files": []
     },
-    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\apod\\layout": {
-      "modules": [],
-      "files": []
-    },
     "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\marsImages\\error": {
       "modules": [],
       "files": []
     },
+    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\marsImages\\layout": {
+      "modules": [],
+      "files": []
+    },
     "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\apod\\page": {
+      "modules": [],
+      "files": []
+    },
+    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\apod\\layout": {
       "modules": [],
       "files": []
     },
