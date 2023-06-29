@@ -268,7 +268,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 2855:
+/***/ 7213:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -330,14 +330,14 @@ __webpack_require__.r(__webpack_exports__);
         'epic',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2146)), "C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\epic\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2146)), "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\epic\\page.tsx"],
           
         }]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5181)), "C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\epic\\layout.tsx"],
-'error': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3656)), "C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\epic\\error.tsx"],
-'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6456)), "C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\epic\\loading.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5181)), "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\epic\\layout.tsx"],
+'error': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3656)), "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\epic\\error.tsx"],
+'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6456)), "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\epic\\loading.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3174))).default(props))],
     apple: [],
@@ -349,7 +349,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5430)), "C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5430)), "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\layout.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3174))).default(props))],
     apple: [],
@@ -360,7 +360,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\epic\\page.tsx"];
+    const pages = ["C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\epic\\page.tsx"];
 
     
     
@@ -387,7 +387,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 4435:
+/***/ 8536:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8678))
@@ -445,7 +445,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1313);
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\tijan\Desktop\git\Projects\nasa-apis\app\epic\error.tsx`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\tijan\Desktop\git\nasa-apis\app\epic\error.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -591,7 +591,7 @@ const epicData = async ()=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [381,206,190,740], () => (__webpack_exec__(2855)));
+var __webpack_exports__ = __webpack_require__.X(0, [381,206,565,331], () => (__webpack_exec__(7213)));
 module.exports = __webpack_exports__;
 
 })();

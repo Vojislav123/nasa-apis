@@ -268,7 +268,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 2603:
+/***/ 7155:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -330,13 +330,13 @@ __webpack_require__.r(__webpack_exports__);
         'marsImages',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9226)), "C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\marsImages\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9226)), "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\marsImages\\page.tsx"],
           
         }]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6266)), "C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\marsImages\\layout.tsx"],
-'error': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9086)), "C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\marsImages\\error.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6266)), "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\marsImages\\layout.tsx"],
+'error': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9086)), "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\marsImages\\error.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3174))).default(props))],
     apple: [],
@@ -348,7 +348,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5430)), "C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5430)), "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\layout.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3174))).default(props))],
     apple: [],
@@ -359,7 +359,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\marsImages\\page.tsx"];
+    const pages = ["C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\marsImages\\page.tsx"];
 
     
     
@@ -386,21 +386,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 3376:
+/***/ 7981:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8890))
 
 /***/ }),
 
-/***/ 9887:
+/***/ 131:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6657))
 
 /***/ }),
 
-/***/ 2683:
+/***/ 641:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 125, 23));
@@ -649,7 +649,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1313);
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\tijan\Desktop\git\Projects\nasa-apis\app\marsImages\error.tsx`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\tijan\Desktop\git\nasa-apis\app\marsImages\error.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -701,7 +701,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1313);
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\tijan\Desktop\git\Projects\nasa-apis\app\marsImages\page.tsx`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\tijan\Desktop\git\nasa-apis\app\marsImages\page.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -722,7 +722,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [381,206,190], () => (__webpack_exec__(2603)));
+var __webpack_exports__ = __webpack_require__.X(0, [381,206,565], () => (__webpack_exec__(7155)));
 module.exports = __webpack_exports__;
 
 })();

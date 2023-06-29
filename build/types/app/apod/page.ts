@@ -1,4 +1,4 @@
-// File: C:\Users\tijan\Desktop\git\Projects\nasa-apis\app\apod\page.tsx
+// File: C:\Users\tijan\Desktop\git\nasa-apis\app\apod\page.tsx
 import * as entry from '../../../../app/apod/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

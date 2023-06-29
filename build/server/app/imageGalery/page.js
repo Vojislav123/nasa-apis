@@ -268,7 +268,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 4706:
+/***/ 7003:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -330,14 +330,14 @@ __webpack_require__.r(__webpack_exports__);
         'imageGalery',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1761)), "C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\imageGalery\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1761)), "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\imageGalery\\page.tsx"],
           
         }]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1029)), "C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\imageGalery\\layout.tsx"],
-'error': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2380)), "C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\imageGalery\\error.tsx"],
-'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7607)), "C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\imageGalery\\loading.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1029)), "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\imageGalery\\layout.tsx"],
+'error': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2380)), "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\imageGalery\\error.tsx"],
+'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7607)), "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\imageGalery\\loading.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3174))).default(props))],
     apple: [],
@@ -349,7 +349,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5430)), "C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5430)), "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\layout.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3174))).default(props))],
     apple: [],
@@ -360,7 +360,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\imageGalery\\page.tsx"];
+    const pages = ["C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\imageGalery\\page.tsx"];
 
     
     
@@ -387,21 +387,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 5838:
+/***/ 2779:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4266))
 
 /***/ }),
 
-/***/ 8256:
+/***/ 1200:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7221))
 
 /***/ }),
 
-/***/ 2683:
+/***/ 641:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 125, 23));
@@ -639,7 +639,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1313);
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\tijan\Desktop\git\Projects\nasa-apis\app\imageGalery\error.tsx`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\tijan\Desktop\git\nasa-apis\app\imageGalery\error.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -712,7 +712,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1313);
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\tijan\Desktop\git\Projects\nasa-apis\app\imageGalery\page.tsx`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\tijan\Desktop\git\nasa-apis\app\imageGalery\page.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -733,7 +733,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [381,206,190], () => (__webpack_exec__(4706)));
+var __webpack_exports__ = __webpack_require__.X(0, [381,206,565], () => (__webpack_exec__(7003)));
 module.exports = __webpack_exports__;
 
 })();

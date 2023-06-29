@@ -1,4 +1,4 @@
-// File: C:\Users\tijan\Desktop\git\Projects\nasa-apis\app\NavBar\layout.tsx
+// File: C:\Users\tijan\Desktop\git\nasa-apis\app\NavBar\layout.tsx
 import * as entry from '../../../../app/NavBar/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -1,4 +1,4 @@
-// File: C:\Users\tijan\Desktop\git\Projects\nasa-apis\app\epic\layout.tsx
+// File: C:\Users\tijan\Desktop\git\nasa-apis\app\epic\layout.tsx
 import * as entry from '../../../../app/epic/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

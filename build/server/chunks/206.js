@@ -5957,7 +5957,7 @@ function createProxy(moduleId) {
 "use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1313);
-module.exports = createProxy("C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\node_modules\\next\\dist\\client\\components\\app-router.js");
+module.exports = createProxy("C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\node_modules\\next\\dist\\client\\components\\app-router.js");
  //# sourceMappingURL=app-router.js.map
 
 
@@ -5969,7 +5969,7 @@ module.exports = createProxy("C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-api
 "use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1313);
-module.exports = createProxy("C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\node_modules\\next\\dist\\client\\components\\error-boundary.js");
+module.exports = createProxy("C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\node_modules\\next\\dist\\client\\components\\error-boundary.js");
  //# sourceMappingURL=error-boundary.js.map
 
 
@@ -5981,7 +5981,7 @@ module.exports = createProxy("C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-api
 "use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1313);
-module.exports = createProxy("C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\node_modules\\next\\dist\\client\\components\\layout-router.js");
+module.exports = createProxy("C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\node_modules\\next\\dist\\client\\components\\layout-router.js");
  //# sourceMappingURL=layout-router.js.map
 
 
@@ -5993,7 +5993,7 @@ module.exports = createProxy("C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-api
 "use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1313);
-module.exports = createProxy("C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js");
+module.exports = createProxy("C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js");
  //# sourceMappingURL=render-from-template-context.js.map
 
 
@@ -6041,7 +6041,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 "use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1313);
-module.exports = createProxy("C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js");
+module.exports = createProxy("C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js");
  //# sourceMappingURL=static-generation-searchparams-bailout-provider.js.map
 
 

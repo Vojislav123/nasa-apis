@@ -268,7 +268,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 7832:
+/***/ 1211:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -327,7 +327,7 @@ __webpack_require__.r(__webpack_exports__);
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3428)), "C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3428)), "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\page.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3174))).default(props))],
     apple: [],
@@ -338,7 +338,7 @@ __webpack_require__.r(__webpack_exports__);
         }]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5430)), "C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5430)), "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\layout.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3174))).default(props))],
     apple: [],
@@ -349,7 +349,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Users\\tijan\\Desktop\\git\\Projects\\nasa-apis\\app\\page.tsx"];
+    const pages = ["C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\page.tsx"];
 
     
     
@@ -376,13 +376,13 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 8422:
+/***/ 9469:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 125, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7844, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6249, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1522, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7844, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3100, 23))
 
 /***/ }),
@@ -419,7 +419,7 @@ const homePage = ()=>{
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [381,206,190], () => (__webpack_exec__(7832)));
+var __webpack_exports__ = __webpack_require__.X(0, [381,206,565], () => (__webpack_exec__(1211)));
 module.exports = __webpack_exports__;
 
 })();
