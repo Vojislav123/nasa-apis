@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import NasaImageGrid from './NasaImageGrid';
+import { ReturnSpinner } from '@/service/returnSpinner';
 
 interface NasaImage {
   data: {
@@ -16,6 +17,7 @@ interface NasaImage {
 const NasaImages: React.FC = () => {
   const [query, setQuery] = useState('');
   const [images, setImages] = useState<NasaImage[]>([]);
+  const [loading, setLoading] = useState(false);
 
   const handleSearch = async () => {
     try {
@@ -24,6 +26,7 @@ const NasaImages: React.FC = () => {
       );
       const data = await response.json();
       setImages(data.collection.items);
+      setLoading(false);
     } catch (error) {
       console.error('Error searching images:', error);
     }
@@ -31,8 +34,10 @@ const NasaImages: React.FC = () => {
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setQuery(e.target.value);
+    setLoading(true);
     handleSearch();
   };
+
 
   return (
     <div className="text-center">
@@ -46,7 +51,7 @@ const NasaImages: React.FC = () => {
         placeholder="Search images..."
       />
 
-      <NasaImageGrid images={images} />
+      {loading? <ReturnSpinner /> : <NasaImageGrid images={images} />}
     </div>
   );
 };

@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useEffect, useState } from 'react';
-import SpinnerLoading from '@/service/spinner';
+import { ReturnSpinner } from '@/service/returnSpinner';
 import ImageModal from './imageModal';
 import Image from 'next/image';
 
@@ -79,20 +79,12 @@ const MarsRoverPhotos = () => {
   };
 
 
-  const returnSpinner = () => {
-    return (
-      <div className="flex sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4 mx-auto justify-center">
-        <SpinnerLoading />
-      </div>
-    )
-  }
-
   return (
     <div className="max-w-auto mx-auto rounded-lg shadow-md p-10">
       <h2 className="text-5xl font-bold mb-4 text-center">Mars Rover Photos</h2>
       <p className="text-gray-400 m-4 text-center">Here you can see a photo from each rover randomly generated</p>
       <div className="flex flex-wrap">
-        {loading? returnSpinner() :  roverPhotos.map((roverPhoto) => (
+        {loading? <ReturnSpinner /> :  roverPhotos.map((roverPhoto) => (
           <div key={roverPhoto.id} className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 p-4 mx-auto">
             <h3 className="text-lg font-bold mb-2 text-center">{roverPhoto.rover.name}</h3>
             <p className="text-gray-400 m-2">{roverPhoto.camera.full_name}</p>
