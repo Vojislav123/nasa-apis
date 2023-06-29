@@ -47,7 +47,7 @@ const MarsRoverPhotos = () => {
       const requests = rovers.map(async (rover) => {
         const maxSol = roverMaxSols[rover];
         const randomSol = Math.floor(Math.random() * maxSol) + 1;
-        const url = `https://api.nasa.gov/mars-photos/api/v1/rovers/${rover}/photos?sol=${randomSol}&api_key=${apiKey}`;
+        const url = `https://api.nasa.gov/mars-photos/api/v1/rovers/${rover}/photos?sol=${randomSol}&api_key=${process.env.API_KEY}`;
         const response = await fetch(url);
         const data = await response.json();
         return data.photos[0];
