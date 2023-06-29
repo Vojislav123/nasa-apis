@@ -1,4 +1,3 @@
-import { apiKey } from "@/service/apikey";
 import Image from "next/image";
 
 

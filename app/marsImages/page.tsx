@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useEffect, useState } from 'react';
-import { apiKey } from '@/service/apikey';
 import SpinnerLoading from '@/service/spinner';
 import ImageModal from './imageModal';
 import Image from 'next/image';

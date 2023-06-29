@@ -1,65 +1,65 @@
 {
   "pages": {
-    "/layout": [
+    "/imageGalery/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/app/imageGalery/layout.js"
     ],
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/imageGalery/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/imageGalery/layout.js"
-    ],
     "/imageGalery/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/imageGalery/page.js"
-    ],
-    "/imageGalery/error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/imageGalery/error.js"
     ],
     "/imageGalery/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/imageGalery/loading.js"
     ],
+    "/imageGalery/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/imageGalery/error.js"
+    ],
     "/epic/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/epic/page.js"
-    ],
-    "/epic/error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/epic/error.js"
     ],
     "/epic/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/epic/layout.js"
     ],
-    "/epic/loading": [
+    "/epic/error": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/epic/loading.js"
+      "static/chunks/app/epic/error.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/marsImages/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/marsImages/layout.js"
     ],
     "/marsImages/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/marsImages/page.js"
     ],
-    "/marsImages/layout": [
+    "/epic/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/marsImages/layout.js"
+      "static/chunks/app/epic/loading.js"
     ],
     "/marsImages/loading": [
       "static/chunks/webpack.js",
@@ -81,15 +81,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/apod/page.js"
     ],
-    "/apod/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/apod/loading.js"
-    ],
     "/apod/error": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/apod/error.js"
+    ],
+    "/apod/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/apod/loading.js"
     ]
   }
 }
