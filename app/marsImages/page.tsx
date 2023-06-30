@@ -42,14 +42,13 @@ const MarsRoverPhotos = () => {
   const fetchRoverPhotos = async () => {
     const rovers = ['curiosity', 'opportunity', 'spirit', 'perseverance'];
 
-    console.log(process.env.API_KEY)
 
     try {
       const requests = rovers.map(async (rover) => {
         
         const maxSol = roverMaxSols[rover];
         const randomSol = Math.floor(Math.random() * maxSol) + 1;
-        const url = `https://api.nasa.gov/mars-photos/api/v1/rovers/${rover}/photos?sol=${randomSol}&api_key=${process.env.API_KEY}`;
+        const url = `https://api.nasa.gov/mars-photos/api/v1/rovers/${rover}/photos?sol=${randomSol}&api_key=${process.env.NEXT_PUBLIC_API_KEY}`;
         const response = await fetch(url);
         const data = await response.json();
         return data.photos[0];

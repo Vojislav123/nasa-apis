@@ -2,12 +2,8 @@ import Image from "next/image";
 
 
 const ApodData = async () => {
-  const res = await fetch('https://api.nasa.gov/planetary/apod?api_key=mLmnEgWxsyryeaJj2aObauFreRM3CVLcqTWOa0cP');
+  const res = await fetch(`https://api.nasa.gov/planetary/apod?api_key=${process.env.NEXT_PUBLIC_API_KEY}`);
   const data = await res.json();
-
-  if (!data) {
-    return <div className="text-center">Loading...</div>;
-  }
 
   return (
     <div className="max-w-3xl mx-auto rounded-lg shadow-md p-6 mt-20">

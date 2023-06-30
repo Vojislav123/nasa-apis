@@ -5,18 +5,15 @@ const epicData = async () => {
 
 
   const res = await fetch(
-    `https://api.nasa.gov/EPIC/api/natural?api_key=DEMO_KEY`
+    `https://api.nasa.gov/EPIC/api/natural?api_key=${process.env.NEXT_PUBLIC_API_KEY}`
   );
   const data = await res.json();
 
-  if (!data) {
-    return <div className="text-center">Loading...</div>;
-  }
 
 
   return (
     <div className="max-w-3xl mx-auto rounded-lg shadow-md p-6 mt-8">
-      <h1 className="text-4xl font-bold mb-10">Earth Polychromatic Imaging Camera </h1>
+      <h1 className="text-4xl font-bold my-10">Earth Polychromatic Imaging Camera </h1>
       <p>
         The EPIC API provides information on the daily imagery collected by
         DSCOVRs Earth Polychromatic Imaging Camera (EPIC) instrument. Uniquely

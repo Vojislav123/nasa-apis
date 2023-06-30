@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import NasaImageGrid from './NasaImageGrid';
 import { ReturnSpinner } from '@/service/returnSpinner';
 
@@ -17,7 +17,7 @@ interface NasaImage {
 const NasaImages: React.FC = () => {
   const [query, setQuery] = useState('');
   const [images, setImages] = useState<NasaImage[]>([]);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   const handleSearch = async () => {
     try {
@@ -38,6 +38,10 @@ const NasaImages: React.FC = () => {
     handleSearch();
   };
 
+  useEffect(() => {
+    handleSearch();
+  }, []);
+
 
   return (
     <div className="text-center">
@@ -51,7 +55,15 @@ const NasaImages: React.FC = () => {
         placeholder="Search images..."
       />
 
-      {loading? <ReturnSpinner /> : <NasaImageGrid images={images} />}
+{loading ? (
+        <ReturnSpinner />
+      ) : images.length === 0 ? (
+        <div className="flex-column items-center justify-center">
+        <h2 className="text-2xl font-bold mb-4">No Images</h2>
+      </div>
+      ) : (
+        <NasaImageGrid images={images} />
+      )}
     </div>
   );
 };
