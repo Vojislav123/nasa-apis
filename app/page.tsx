@@ -21,7 +21,7 @@ const HomePage = () => {
       </div>
       <div className="text-center">
         <Link
-          href="/imageGallery"
+          href="/imageGalery"
           className="inline-block bg-purple-700 hover:bg-purple-900 text-white font-bold py-4 px-6 mt-4 rounded md:hidden"
         >
           Image Gallery
