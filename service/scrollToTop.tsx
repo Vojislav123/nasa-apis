@@ -1,6 +1,8 @@
 'use client';
 import React, {useState, useEffect }from 'react';
+import Image from 'next/image';
 
+import scrollImage from './scrollUp.svg';
 
 const ScrollToTop = () => {
     const [showButton, setShowButton] = useState(false);
@@ -37,7 +39,7 @@ const ScrollToTop = () => {
         <>
           {showButton && (
             <button className='topButton' onClick={scrollToTop}>
-              <p>Back to Top</p>
+              <Image src={scrollImage} alt='scroll up' height={10} width={10} />
             </button>
           )}
         </>
