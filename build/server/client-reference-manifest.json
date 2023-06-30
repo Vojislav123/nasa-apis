@@ -56,6 +56,46 @@
         "async": false
       }
     },
+    "(app-client)/./service/spinner.tsx": {
+      "*": {
+        "id": "(sc_client)/./service/spinner.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/marsImages/error.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/marsImages/error.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/marsImages/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/marsImages/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./service/close.svg": {
       "*": {
         "id": "(sc_client)/./service/close.svg",
@@ -88,14 +128,6 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/link.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
@@ -104,41 +136,9 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./service/scrollToTop.tsx": {
       "*": {
         "id": "(sc_client)/./service/scrollToTop.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/marsImages/page.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/marsImages/page.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./service/spinner.tsx": {
-      "*": {
-        "id": "(sc_client)/./service/spinner.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/marsImages/error.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/marsImages/error.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -347,6 +347,62 @@
       ],
       "async": false
     },
+    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\service\\spinner.tsx": {
+      "id": "(app-client)/./service/spinner.tsx",
+      "name": "*",
+      "chunks": [
+        "app/loading:static/chunks/app/loading.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\marsImages\\error.tsx": {
+      "id": "(app-client)/./app/marsImages/error.tsx",
+      "name": "*",
+      "chunks": [
+        "app/marsImages/error:static/chunks/app/marsImages/error.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\marsImages\\page.tsx": {
+      "id": "(app-client)/./app/marsImages/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/marsImages/page:static/chunks/app/marsImages/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\node_modules\\next\\dist\\client\\image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/epic/page:static/chunks/app/epic/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\node_modules\\next\\dist\\esm\\client\\image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/epic/page:static/chunks/app/epic/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\node_modules\\next\\dist\\shared\\lib\\head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/epic/page:static/chunks/app/epic/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/epic/page:static/chunks/app/epic/page.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\service\\close.svg": {
       "id": "(app-client)/./service/close.svg",
       "name": "*",
@@ -379,22 +435,6 @@
       ],
       "async": false
     },
-    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\node_modules\\next\\dist\\client\\image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/epic/page:static/chunks/app/epic/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\node_modules\\next\\dist\\esm\\client\\image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/epic/page:static/chunks/app/epic/page.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\node_modules\\next\\dist\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
@@ -411,51 +451,11 @@
       ],
       "async": false
     },
-    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\node_modules\\next\\dist\\shared\\lib\\head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/epic/page:static/chunks/app/epic/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/epic/page:static/chunks/app/epic/page.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\service\\scrollToTop.tsx": {
       "id": "(app-client)/./service/scrollToTop.tsx",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\marsImages\\page.tsx": {
-      "id": "(app-client)/./app/marsImages/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/marsImages/page:static/chunks/app/marsImages/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\service\\spinner.tsx": {
-      "id": "(app-client)/./service/spinner.tsx",
-      "name": "*",
-      "chunks": [
-        "app/imageGalery/page:static/chunks/app/imageGalery/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\marsImages\\error.tsx": {
-      "id": "(app-client)/./app/marsImages/error.tsx",
-      "name": "*",
-      "chunks": [
-        "app/marsImages/error:static/chunks/app/marsImages/error.js"
       ],
       "async": false
     },
@@ -505,6 +505,18 @@
       "modules": [],
       "files": []
     },
+    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\marsImages\\loading": {
+      "modules": [],
+      "files": []
+    },
+    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\marsImages\\error": {
+      "modules": [],
+      "files": []
+    },
+    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\marsImages\\page": {
+      "modules": [],
+      "files": []
+    },
     "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\layout": {
       "modules": [
         "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\globals.css",
@@ -514,23 +526,7 @@
         "static/css/app/layout.css"
       ]
     },
-    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\marsImages\\loading": {
-      "modules": [],
-      "files": []
-    },
-    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\marsImages\\page": {
-      "modules": [],
-      "files": []
-    },
-    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\marsImages\\error": {
-      "modules": [],
-      "files": []
-    },
     "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\imageGalery\\error": {
-      "modules": [],
-      "files": []
-    },
-    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\imageGalery\\layout": {
       "modules": [],
       "files": []
     },
@@ -538,11 +534,15 @@
       "modules": [],
       "files": []
     },
-    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\apod\\layout": {
+    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\imageGalery\\layout": {
       "modules": [],
       "files": []
     },
     "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\imageGalery\\page": {
+      "modules": [],
+      "files": []
+    },
+    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\apod\\layout": {
       "modules": [],
       "files": []
     },
@@ -566,15 +566,19 @@
       "modules": [],
       "files": []
     },
-    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\epic\\error": {
-      "modules": [],
-      "files": []
-    },
     "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\epic\\loading": {
       "modules": [],
       "files": []
     },
+    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\epic\\error": {
+      "modules": [],
+      "files": []
+    },
     "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\epic\\page": {
+      "modules": [],
+      "files": []
+    },
+    "C:\\Users\\tijan\\Desktop\\git\\nasa-apis\\app\\loading": {
       "modules": [],
       "files": []
     }

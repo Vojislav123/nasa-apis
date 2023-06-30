@@ -1,4 +1,7 @@
 {
   "/page": "app/page.js",
-  "/epic/page": "app/epic/page.js"
+  "/epic/page": "app/epic/page.js",
+  "/imageGalery/page": "app/imageGalery/page.js",
+  "/apod/page": "app/apod/page.js",
+  "/marsImages/page": "app/marsImages/page.js"
 }
